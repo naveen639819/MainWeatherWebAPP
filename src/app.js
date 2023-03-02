@@ -22,4 +22,5 @@ app.get("/about",(req,res)=>{
     res.render("about")
 })
 
-app.listen(process.env.PORT || port, ()=> console.log(`Listening on port ${port}`));
+app.listen(process.env.PORT || 3000);
+
